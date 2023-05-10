@@ -9,5 +9,24 @@
 
 def multiples(a,b):
     values = []
-    for value in values:
-        if % x == 0
+    for value in range(b)
+        #if % x == 0
+        print(value)
+
+print(multiples(3,10))
+
+
+###############################
+
+
+
+def multiples(a,b):
+    values = []
+    for value in range(b):
+        if value % a == 0:
+            if value != 0:
+                    values.append(value)
+    return values
+
+print(multiples(3,10))
+
