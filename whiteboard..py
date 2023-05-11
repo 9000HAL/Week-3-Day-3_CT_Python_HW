@@ -22,11 +22,14 @@ print(multiples(3,10))
 
 def multiples(a,b):
     values = []
-    for value in range(b):
+    for value in range(b + 1):
         if value % a == 0:
             if value != 0:
                     values.append(value)
     return values
 
-print(multiples(3,10))
+print(multiples(1,7))
 
+
+#OUTPUT: >>> print(multiples(1,7))
+#[1, 2, 3, 4, 5, 6, 7] -------GABE: CORRECT PER DK
